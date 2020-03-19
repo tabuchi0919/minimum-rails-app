@@ -1,0 +1,32 @@
+require:
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-thread_safety
+AllCops:
+  Exclude:
+    - bin/*
+    - db/schema.rb
+    - node_modules/**/*
+Style/AsciiComments:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Style/HashEachMethods:
+  Enabled: true
+Style/HashTransformKeys:
+  Enabled: true
+Style/HashTransformValues:
+  Enabled: true
+Metrics/AbcSize:
+  Exclude:
+    - db/migrate/*
+Metrics/BlockLength:
+  Exclude:
+    - config/routes.rb
+    - spec/**/*
+Metrics/ClassLength:
+  Exclude:
+    - db/migrate/*
+Metrics/MethodLength:
+  Exclude:
+    - db/migrate/*

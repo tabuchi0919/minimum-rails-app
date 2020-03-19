@@ -1,0 +1,19 @@
+linters:
+  DeprecatedClasses:
+    enabled: true
+  FinalNewline:
+    enabled: true
+  ErbSafety:
+    enabled: true
+  RightTrim:
+    enabled: true
+  SpaceAroundErbTag:
+    enabled: true
+  NoJavascriptTagHelper:
+    enabled: true
+  SelfClosingTag:
+    enabled: true
+  AllowedScriptType:
+    enabled: true
+Rubocop:
+  enabled: true
